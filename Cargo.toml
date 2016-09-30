@@ -1,0 +1,7 @@
+[package]
+name = "crypto-challenges"
+version = "0.1.0"
+authors = ["gareth.charnock <gareth.charnock@zerolight.com>"]
+
+[dependencies]
+rustc-serialize = "0.3"
