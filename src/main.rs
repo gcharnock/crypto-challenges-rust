@@ -64,7 +64,13 @@ fn xor_buffer_with_byte(input: &[u8], key: u8) -> Vec<u8> {
     return output
 }
 
-fn xor_iterator_with_byte(input: &[u8], key: u8)
+fn transpose(input: &[u8], len: u8) -> Vec<Vec<u8>> {
+    let mut output = Vec::new();
+    for i in 0..len {
+        output.push(Vec::new());
+    }
+    output
+}
 
 fn get_score_str(str: &str) -> u64 {
     let mut score: u64 = 0;
